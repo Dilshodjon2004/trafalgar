@@ -121,7 +121,18 @@ header{
 /* Services section */
 .services-section {
     margin-top: 170px;
-    /* text-align: center; */
+    position: relative;
+}
+
+.services-section::before{
+    content: " ";
+    background-image: url("../img/Vector.svg");
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 900px;
+    height: 600px;
+    z-index: -1;
 }
 
 .section-name {
